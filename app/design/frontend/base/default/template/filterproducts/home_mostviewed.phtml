@@ -36,7 +36,7 @@ $store = Mage::app()->getStore();
 $code  = $store->getCode();
 $enable = Mage::getStoreConfig('filterproducts/config3/active',$code);
 ?>
-<?php if($enable == 1) { ?>
+<?php if($enable == 0) { ?>
 <div class="maintitle">
             <div class="titlemain"><?php echo Mage::getStoreConfig('filterproducts/config3/title',$code); ?></div>
             <div class="viewall"><a href="<?php echo $this->getUrl('filterproducts/index/mostviewed'); ?>"><?php echo $this->__('View All') ?></a></div>
