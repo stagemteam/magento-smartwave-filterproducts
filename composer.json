@@ -1,0 +1,25 @@
+{
+  "name": "stagem/magento-smartwave-filterproducts",
+  "type": "magento-module",
+  "license": "MIT Licence",
+  "description": "Smartwave Filterproducts Magento 1 Module",
+  "authors": [
+    {
+      "name": "Vlad Kozak",
+      "email": "vk@stagem.com.ua"
+    }
+  ],
+  "extra": {
+    "map": [
+      ["app/etc/modules/Smartwave_Filterproducts.xml", "app/etc/modules/Smartwave_Filterproducts.xml"],
+      ["app/code/local/Smartwave/Filterproducts/", "app/code/local/Smartwave/Filterproducts/"],
+
+      ["app/design/frontend/base/default/layout/smartwave_filterproducts.xml", "app/design/frontend/base/default/layout/smartwave_filterproducts.xml"],
+      ["app/design/frontend/base/default/template/filterproducts/", "app/design/frontend/base/default/template/filterproducts/"],
+
+      ["skin/frontend/base/default/filterproducts/css/style.css", "skin/frontend/base/default/filterproducts/css/style.css"],
+      ["skin/frontend/base/default/filterproducts/css/style.scss", "skin/frontend/base/default/filterproducts/css/style.scss"],
+      ["skin/frontend/base/default/images/filterproducts/", "skin/frontend/base/default/images/filterproducts/"]
+    ]
+  }
+}
